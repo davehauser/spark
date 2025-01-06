@@ -122,7 +122,7 @@ namespace Spark.Parser
         }
 
         /// <summary>
-        /// Walks up the passed <paramref name="viewName">view name</paramref>'s directory sturcture, returning all possible directories that could contain partial views.
+        /// Walks up the passed <paramref name="viewName">view name</paramref>'s directory structure, returning all possible directories that could contain partial views.
         /// </summary>
         /// <param name="viewPath">The view path for which to return partial view paths.</param>
         /// <returns>The full list of possible partial view paths.</returns>
@@ -139,7 +139,7 @@ namespace Spark.Parser
         }
 
         /// <summary>
-        /// Appends the propper extenstion to the passed <paramref name="viewName">view name</paramref>, if it does not already have it.
+        /// Appends the proper extenstion to the passed <paramref name="viewName">view name</paramref>, if it does not already have it.
         /// </summary>
         /// <param name="viewName">The name of the view to which to append the extension.</param>
         /// <returns>The view name with the proper Spark extenstion.</returns>
