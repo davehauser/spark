@@ -6,10 +6,10 @@
     <SignAssembly>False</SignAssembly>
     <AssemblyOriginatorKeyFile>..\SparkKey.snk</AssemblyOriginatorKeyFile>
     <IsPackable>True</IsPackable>
-    <AssemblyVersion>1.8.2.1</AssemblyVersion>
-    <VersionPrefix>1.8.2.1</VersionPrefix>
+    <AssemblyVersion>1.8.2.2</AssemblyVersion>
+    <VersionPrefix>1.8.2.2</VersionPrefix>
     <VersionSuffix>alpha</VersionSuffix>
-    <FileVersion>1.8.2.1</FileVersion>
+    <FileVersion>1.8.2.2</FileVersion>
     <Authors>RobertTheGrey</Authors>
     <Company>Louis DeJardin</Company>
     <PackageId>Spark.Web.Mvc5</PackageId>
@@ -57,6 +57,6 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.3.0" />
     <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.5" />
   </ItemGroup>
 </Project>

@@ -3,10 +3,10 @@
         <SignAssembly>False</SignAssembly>
         <AssemblyOriginatorKeyFile>..\SparkKey.snk</AssemblyOriginatorKeyFile>
         <IsPackable>True</IsPackable>
-        <AssemblyVersion>1.8.2.1</AssemblyVersion>
-        <VersionPrefix>1.8.2.1</VersionPrefix>
+        <AssemblyVersion>1.8.2.2</AssemblyVersion>
+        <VersionPrefix>1.8.2.2</VersionPrefix>
         <VersionSuffix>alpha</VersionSuffix>
-        <FileVersion>1.8.2.1</FileVersion>
+        <FileVersion>1.8.2.2</FileVersion>
         <Authors>RobertTheGrey</Authors>
         <Company>Louis DeJardin</Company>
         <PackageProjectUrl>https://github.com/SparkViewEngine/</PackageProjectUrl>
@@ -28,8 +28,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.12.0" />
-        <PackageReference Include="System.Configuration.ConfigurationManager" Version="9.0.0" />
+        <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.14.0" />
+        <PackageReference Include="System.Configuration.ConfigurationManager" Version="9.0.5" />
     </ItemGroup>
 
     <ItemGroup>
